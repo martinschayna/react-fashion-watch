@@ -58,10 +58,10 @@ export default {
         outputStyle: 'nested'
     },
     postcss: () => [autoprefixer(autoprefixerCfg)],
-    externals: {
-        react: 'React',
-        'react-style-normalizer': 'styleNormalizer'
-    },
+ //   externals: {
+ //       react: 'React',
+ //       'react-style-normalizer': 'styleNormalizer'
+ //   },
     resolve: {
         extensions: ['', '.js', '.jsx', '.scss']
     }
